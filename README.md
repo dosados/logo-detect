@@ -15,7 +15,11 @@ metrics are made by script_metrics.py
 applied colour inversion to half of train dataset as an augmentation, tried to teach model not to rely on colour. implemented by direct inverting images in folder
 with python script.
 
-will add links to download dataset for metrics tests tomorrow.
+
+link to model weights and validation data to rum metrics im script_metrics.py:
+https://drive.google.com/drive/folders/1YoLl0dRGcngKc4QVjPEXb50Ed4XXiE6M?usp=drive_link
+
+change weights and data paths to yours and run script
 
 
 to build and run docker:
