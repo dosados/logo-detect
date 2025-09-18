@@ -1,0 +1,5 @@
+names: ['tbank logo']  
+nc: 1            
+test: images/val  
+train: images/train
+val: images/val
