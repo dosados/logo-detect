@@ -5,14 +5,10 @@ import os
 import matplotlib as plt
 
 
-
-# Путь к сохранённым весам
 weights_path = "runs/detect/train14/weights/best.pt"  
 
-# Загружаем модель
 model = YOLO(weights_path)
 
-# Проверяем доступность CUDA
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 print(f"Using device: {device}")
 
