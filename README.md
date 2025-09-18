@@ -21,6 +21,18 @@ https://drive.google.com/drive/folders/1YoLl0dRGcngKc4QVjPEXb50Ed4XXiE6M?usp=dri
 
 change weights and data paths to yours and run script
 
+to run with conda env:
+go to Documents/tbank
+conda env create -f requirements.yml
+conda activate validate-env
+run script_metric.py
+
+to run with venv:
+with venv activated
+pip install ultralytics
+run script_metric.py
+
+
 
 to build and run docker:
 
